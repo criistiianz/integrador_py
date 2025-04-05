@@ -25,6 +25,11 @@ st.markdown("""
 - Dominar las estructuras de datos fundamentales
 - Aplicar estos conocimientos en ejemplos prácticos
 """)
+
+st.markdown("""
+    <div style="background-color:#f9f9f9; padding:20px; border-radius:10px; box-shadow: 2px 2px 10px rgba(0,0,0,0.1);">
+""", unsafe_allow_html=True)
+
 st.title("EXPLORACION DE DATOS CON PANDAS Y STREAMLIT")
 st.header("Solución")
 
@@ -48,3 +53,5 @@ st.write(df[['nombre', 'edad', 'promedio']])
 
 st.title("FILTRAR ESTUDIANTES CON PREMEDIO MAYOR POR EL USUARIO  UTILIZANDO SLIDER")
 promedio_usuario = st.slider("Promedio", min_value=0, max_value=100, value=75)
+
+st.markdown("</div>", unsafe_allow_html=True)
