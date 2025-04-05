@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 
 # Configuración de la página
 st.set_page_config(   
@@ -24,6 +25,26 @@ st.markdown("""
 - Dominar las estructuras de datos fundamentales
 - Aplicar estos conocimientos en ejemplos prácticos
 """)
-
+st.title("EXPLORACION DE DATOS CON PANDAS Y STREAMLIT")
 st.header("Solución")
 
+df = pd.read_csv('integrador\static\estudiantes_colombia.csv')
+st.dataframe(df)
+
+st.title("LAS PRIMERAS 5 FILAS")
+st.dataframe(df.head())
+
+st.title("las ultimas 5 FILAS")
+st.dataframe(df.tail())
+
+st.title("MOSTRAR UN INFORME CON .INFO()")
+st.write(df.info())
+
+st.title("MOSTRAR LAS ESTADISTICAS BASICAS CON .describe()")
+st.write(df.describe()) 
+
+st.title("COLUMNAS ESPECIFICAS ")
+st.write(df[['nombre', 'edad', 'promedio']])
+
+st.title("FILTRAR ESTUDIANTES CON PREMEDIO MAYOR POR EL USUARIO  UTILIZANDO SLIDER")
+promedio_usuario = st.slider("Promedio", min_value=0, max_value=100, value=75)
