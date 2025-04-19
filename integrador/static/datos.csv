@@ -1,0 +1,16 @@
+nombre_completo,edad,municipio,ingreso_mensual,ocupacion,tipo_vivienda,fecha_nacimiento,acceso_internet
+Kevin Rojas,21,Bogotá,1200000,Estudiante,Familiar,2003-03-12,True
+Laura Martínez,32,Medellín,2500000,Comerciante,Propia,1992-07-09,True
+Camilo Torres,45,Cartagena,4000000,Docente,Propia,1979-02-20,True
+Sara Gómez,29,Barranquilla,1800000,Emprendedora,Arrendada,1995-11-01,False
+Esteban Ramírez,36,Cali,3000000,Ingeniero,Propia,1988-06-14,True
+Tatiana López,24,Bogotá,,Estudiante,Familiar,2000-09-25,False
+Andrés Rodríguez,41,Santa Marta,3200000,Médico,Propia,1983-12-08,True
+Diana Muñoz,27,Tunja,2200000,Obrera,Arrendada,1997-01-30,True
+Juan Pablo Díaz,50,Manizales,5000000,Pensionado,Propia,1974-05-15,True
+Valeria Suárez,19,Yopal,900000,Estudiante,Familiar,2005-08-03,False
+Carlos Mendoza,60,Buenaventura,,Desempleado,Familiar,1964-10-19,False
+Isabel Peña,35,Villavicencio,2600000,Docente,Arrendada,1989-11-11,True
+Mateo Salazar,43,Leticia,4100000,Ingeniero,Propia,1981-03-27,True
+Paola Herrera,30,Puerto Inírida,1500000,Emprendedora,Arrendada,1994-04-21,True
+Jhon Álvarez,38,Bogotá,2800000,Comerciante,Arrendada,1986-07-16,True
