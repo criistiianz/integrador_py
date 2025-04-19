@@ -35,7 +35,7 @@ df_nuevo = df.copy()
 st.title("🔍 Aplicación de Filtros Dinámicos - CRM de Ventas")
 st.sidebar.title("🔧 Filtros")
 
-# 1. Filtro por rango de edad
+# 1. Filtro por rango de edad 
 if st.sidebar.checkbox("Filtrar por rango de edad"):
     edad_min, edad_max = st.sidebar.slider("Selecciona el rango de edad", 15, 75, (20, 40))
     df_nuevo = df_nuevo[df_nuevo['edad'].between(edad_min, edad_max)]
